@@ -1,9 +1,9 @@
 const EMAILJS_ENDPOINT = 'https://api.emailjs.com/api/v1.0/email/send';
 
 export const EMAILJS_CONFIG = {
-  serviceId: 'service_scgah7s',
+  serviceId: 'service_xcgah7s',
   templateId: 'template_mnxepto',
-  publicKey: '465yN1qevb7NiggQR',
+  publicKey: '_-465yNTqevb7NGqR',
   recipient: 'honestconstruction1313@gmail.com',
 };
 
