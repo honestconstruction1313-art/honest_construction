@@ -111,7 +111,7 @@ export default function ContactForm() {
       );
     }
   };
-                        </select>
+                        <select>
                     </div>
                     <div>
                       <label className={labelClass} htmlFor="urgency">
