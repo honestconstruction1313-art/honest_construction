@@ -61,7 +61,7 @@ export default function ContactForm() {
  await sendInquiryEmail({
  from_name: form.fullName,
  name: form.fullName,
- full_name: form.fullName,
+  full_name: form.fullName,
  from_email: form.email,
  email: form.email,
  reply_to: form.email,
@@ -100,8 +100,8 @@ export default function ContactForm() {
  }
  };
  const inputClass =
- 'w-full rounded-xl border-2 border-sky-100 bg-white px-4 py-3 text-sm text-navy-900 placeholder:text-
-accent-steel/50 transition-all focus:border-sky-400 focus:outline-none focus:ring-4 focus:ring-sky-100';
+ 'w-full rounded-xl border-2 border-sky-100 bg-white px-4 py-3 text-sm text-navy-900 placeholder:text-accent-steel/50 transition-all focus:border-sky-
+400 focus:outline-none focus:ring-4 focus:ring-sky-100';
  const labelClass = 'mb-1.5 block text-sm font-semibold text-navy-800';
  return (
  <section id="contact" className="relative overflow-hidden bg-navy-900 py-20 lg:py-28">
@@ -131,14 +131,13 @@ text-balance">
  <div className="rounded-2xl border border-sky-400/15 bg-navy-800/60 p-6 backdrop-blur-sm">
  <h3 className="font-display text-lg font-bold text-white">Contact Details</h3>
  <div className="mt-5 flex flex-col gap-5">
- <a href={CONTACT_INFO.phoneLink} className="group flex items-start gap-4">
+  <a href={CONTACT_INFO.phoneLink} className="group flex items-start gap-4">
  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-
 sky-500/15 transition-colors group-hover:bg-sky-500/25">
  <Phone className="h-5 w-5 text-sky-400" />
  </div>
  <div>
- <p className="text-xs font-semibold uppercase tracking-wide text-sky-200/60">Phone</
-p>
+ <p className="text-xs font-semibold uppercase tracking-wide text-sky-200/60">Phone</p>
  <p className="text-base font-bold text-white">{CONTACT_INFO.phone}</p>
  </div>
  </a>
@@ -159,8 +158,7 @@ sky-500/15 transition-colors group-hover:bg-sky-500/25">
  <Mail className="h-5 w-5 text-sky-400" />
  </div>
  <div>
- <p className="text-xs font-semibold uppercase tracking-wide text-sky-200/60">Email</
-p>
+ <p className="text-xs font-semibold uppercase tracking-wide text-sky-200/60">Email</p>
  <p className="text-sm font-bold text-white break-all">{CONTACT_INFO.email}</p>
  </div>
  </a>
@@ -203,7 +201,7 @@ sky-500/15">
  <div className="flex flex-col items-center justify-center py-12 text-center">
  <div className="flex h-20 w-20 items-center justify-center rounded-full bg-green-50">
  <CheckCircle2 className="h-12 w-12 text-green-600" />
- </div>
+  </div>
  <h3 className="mt-6 font-display text-2xl font-bold text-navy-900">Quote Request 
 Received!</h3>
  <p className="mt-3 max-w-md text-sm leading-relaxed text-accent-steel">
@@ -273,7 +271,7 @@ navy-700 transition-colors hover:bg-sky-50"
  <div>
  <label className={labelClass} htmlFor="postcode">
  Project Postcode / Location <span className="text-red-500">*</span>
- </label>
+  </label>
  <input
  id="postcode"
  type="text"
@@ -411,4 +409,4 @@ allowed disabled:opacity-70 disabled:hover:translate-y-0"
  </div>
  </section>
  );
-   }
+}
