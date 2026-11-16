@@ -21,7 +21,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-4 py-2 backdrop-blur-sm animate-fade-in">
             <MapPin className="h-4 w-4 text-sky-300" />
-            <span className="text-sm font-semibold text-sky-100">Merseyside & WA11 | Penny Lane</span>
+            <span className="text-sm font-semibold text-sky-100">Merseyside & WA11 | Also Serving Leicester </span>
           </div>
 
           {/* Heading */}
