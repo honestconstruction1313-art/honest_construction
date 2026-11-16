@@ -35,7 +35,7 @@ export default function Footer() {
             <Logo variant="light" />
             <p className="mt-5 text-sm leading-relaxed text-sky-200/60">
               Solid Builds. Honest Results. Your trusted multi-trade construction specialists across
-              Merseyside & WA11.
+              Whiteside Rd, Haydock, Saint Helens WA11 0JB, UK.
             </p>
             <div className="mt-5 flex items-center gap-2">
               <span className="rounded-md bg-sky-500/15 px-3 py-1 text-xs font-bold text-sky-300">
