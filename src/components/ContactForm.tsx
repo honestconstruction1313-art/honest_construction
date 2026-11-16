@@ -243,7 +243,7 @@ export default function ContactForm() {
                         required
                         value={form.fullName}
                         onChange={(e) => updateField('fullName', e.target.value)}
-                        placeholder="John Smith"
+                        placeholder="ㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
                         className={inputClass}
                       />
                     </div>
@@ -257,7 +257,7 @@ export default function ContactForm() {
                         required
                         value={form.phone}
                         onChange={(e) => updateField('phone', e.target.value)}
-                        placeholder="07495 731134"
+                        placeholder="ㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
                         className={inputClass}
                       />
                     </div>
@@ -275,7 +275,7 @@ export default function ContactForm() {
                         required
                         value={form.email}
                         onChange={(e) => updateField('email', e.target.value)}
-                        placeholder="Rs2543461@gmail.com"
+                        placeholder="ㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
                         className={inputClass}
                       />
                     </div>
@@ -289,7 +289,7 @@ export default function ContactForm() {
                         required
                         value={form.postcode}
                         onChange={(e) => updateField('postcode', e.target.value)}
-                        placeholder="WA11 0QX / Penny Lane"
+                        placeholder="ㅤㅤㅤㅤㅤㅤㅤㅤㅤ"
                         className={inputClass}
                       />
                     </div>
