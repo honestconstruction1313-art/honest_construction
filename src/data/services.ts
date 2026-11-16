@@ -151,5 +151,5 @@ export const CONTACT_INFO = {
   whatsapp: 'https://wa.me/447495731134',
   email: 'honestconstruction1313@gmail.com',
   emailLink: 'mailto:honestconstruction1313@gmail.com',
-  address: 'Penny Lane, WA11 0QX, United Kingdom',
+  address: 'Whiteside Rd, Haydock, Saint Helens WA11 0JB, UK',
 };
