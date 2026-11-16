@@ -14,7 +14,7 @@ const TRUST_ITEMS = [
   {
     icon: MapPin,
     title: 'Verified Local Tradesmen (WA11)',
-    description: 'Based in Penny Lane, WA11 — we are your trusted local construction specialists across Merseyside.',
+    description: 'Based in Whiteside Rd, Haydock, Saint Helens WA11 0JB, UK — we are your trusted local construction specialists across Merseyside.',
   },
 ];
 
